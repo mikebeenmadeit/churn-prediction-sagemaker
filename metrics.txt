@@ -1,0 +1,3 @@
+AUC: 0.824
+Accuracy: 0.789
+Model artifact (S3): s3://sagemaker-us-east-1-191687650900/churn/output/local-model/model.joblib
