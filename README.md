@@ -20,10 +20,23 @@
 
 ---
 
-## Next Steps (Day 2+)
-- Train churn prediction model (XGBoost in SageMaker)  
-- Deploy endpoint + wrap with API Gateway + Lambda  
-- Test predictions with Postman/cURL  
-- Add API demo + business value report  
-EOF
+### Day 2 — Train XGBoost Churn Model ✅
+- Trained cost-efficient **local XGBoost** classifier (no SageMaker training quotas required)
+- Features: one-hot encoded categoricals, numeric coercion, NA fill; stratified 80/20 split
+- Saved model locally and uploaded artifact to S3
+
+
+
+**Notebook:** `02-train-model.ipynb`
+
+**Artifacts**
+-Metrics: `metrics.txt`
+
+### Next Steps (Day 3+)
+- Optional: **Hyperparameter tuning** (XGBoost grid with AUC)
+- Package inference code and **deploy endpoint (real-time or serverless)**  
+- Add an **API Gateway + Lambda** wrapper and a tiny CLI / Postman demo
+- Write a short **“Business Value of Churn Prediction”** note (cost savings, retention lift)
+
+
 
