@@ -1,0 +1,26 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Data files (don’t push raw datasets to GitHub)
+*.csv
+*.tsv
+*.json
+
+# Model artifacts
+*.joblib
+*.h5
+*.pkl
+
+# OS junk files
+.DS_Store
+Thumbs.db
